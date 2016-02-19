@@ -22,7 +22,7 @@ session_start();
 						error_reporting(E_ALL ^ E_DEPRECATED);						
 						$Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 						$DataBase=mysql_select_DB("amm15_casulaAlessandro");
-						$Query="SELECT * FROM stanza ORDER BY cod;";
+						$Query="SELECT * FROM Stanza ORDER BY cod;";
 						$ExQuery=mysql_query($Query);
 						$num=1+mysql_num_rows($ExQuery);
 					echo"

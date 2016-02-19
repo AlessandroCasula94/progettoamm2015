@@ -36,7 +36,7 @@ session_start();
 							$Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 							$DataBase=mysql_select_DB("amm15_casulaAlessandro");
 							$todays_date = date("Ymd");
-							$Query="SELECT * FROM stanza as s
+							$Query="SELECT * FROM Stanza as s
 							ORDER BY cod;";
 							$ExQuery=mysql_query($Query);
 													

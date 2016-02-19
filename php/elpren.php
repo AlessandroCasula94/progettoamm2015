@@ -21,7 +21,7 @@ session_start();
 					$DataBase=mysql_select_DB("amm15_casulaAlessandro");
 					$codice=$_GET['codpren'];
 					$user=$_SESSION['User'];
-					$Query="DELETE FROM prenotazioni WHERE cod_pren='$codice' AND cf='$user';";
+					$Query="DELETE FROM Prenotazioni WHERE cod_pren='$codice' AND cf='$user';";
 					$ExQuery=mysql_query($Query);
 					echo"<div id='testo'>Eliminazione completata correttamente</div>";
 					mysql_close($Connessione);

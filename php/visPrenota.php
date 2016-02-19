@@ -21,7 +21,7 @@ session_start();
 							$todays_date = date("Ymd");
 							$Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 							$DataBase=mysql_select_DB("amm15_casulaAlessandro");
-							$Query="SELECT * FROM stanza as s, prenotazioni as p 
+							$Query="SELECT * FROM Stanza as s, Prenotazioni as p 
 							WHERE s.cod=p.cod AND p.cf='$user' AND p.data_i>='$todays_date' 
 							ORDER BY cod_pren;";
 							$ExQuery=mysql_query($Query);

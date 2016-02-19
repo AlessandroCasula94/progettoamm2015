@@ -19,9 +19,9 @@ session_start();
 							error_reporting(E_ALL ^ E_DEPRECATED);		
 							$user=$_SESSION['User'];
 							$todays_date = date("Ymd");
-							$connessione=mysql_connect("localhost","root","");
+							$Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 							$DataBase=mysql_select_DB("amm15_casulaAlessandro");
-							$Query="SELECT * FROM stanza 
+							$Query="SELECT * FROM Stanza 
 							ORDER BY cod;";
 							$ExQuery=mysql_query($Query);
 							if(mysql_num_rows($ExQuery)==0)

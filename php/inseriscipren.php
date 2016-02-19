@@ -40,7 +40,7 @@ session_start();
 									&& $datafine>$datainizio)
 								{
 									$codice=$_GET['cod'];
-									$Query="SELECT * FROM prenotazioni WHERE 
+									$Query="SELECT * FROM Prenotazioni WHERE 
 									cod=$codice 
 									AND ((data_i<=$datainizio AND data_f>=$datafine)
 									OR (data_i<=$datainizio AND (data_f>=$datainizio AND data_f<=$datafine))
