@@ -4,6 +4,7 @@ session_start();
 
 <html>
 	<head>
+	<title> B&B </title>
 		<link href="../css/stile.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 	</head>
