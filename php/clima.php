@@ -4,7 +4,7 @@ session_start();
 
 <html>
 	<head>
-		<link href="../css/stile.css" rel="stylesheet" type="text/css">
+		<link href="../css/stile.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>

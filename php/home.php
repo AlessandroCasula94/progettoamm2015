@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 	<head>
-		<link href="../css/stile.css" rel="stylesheet" type="text/css">
+		<link href="../css/stile.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
@@ -26,7 +26,7 @@ session_start();
 						</div>
 						
 						
-							<img src="http://www.atticusbb.com/uploads/images/cd78aa899dd3c8a0525ae8d7f04de06f_rescale.jpg" width="450" height="296" style='border:4px solid grey;' alt='Immagine stanza'>
+							<img src="http://www.atticusbb.com/uploads/images/cd78aa899dd3c8a0525ae8d7f04de06f_rescale.jpg" width="450" height="296" style='border:4px solid grey;' alt='Immagine stanza'/>
 						
 						<div id="titolo">
 						Caratteristiche principali della struttura:
@@ -44,8 +44,8 @@ session_start();
 						</ul>
 						</div>
 					
-							<img src="http://www.bbcentrale.it/Images/buffet%20colazione%20bb%20centrale.jpg" width="290" height="150" style='border:4px solid grey;' alt='Immagine stanza'>
-							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHntg_CWigQ3laYb7egSWV_LlCK0jqhUtpTLTT3kWPxPgxgtikrA" width="290" height="150" style='border:4px solid grey;' alt='Immagine stanza'>
+							<img src="http://www.bbcentrale.it/Images/buffet%20colazione%20bb%20centrale.jpg" width="290" height="150" style='border:4px solid grey;' alt='Immagine stanza'/>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHntg_CWigQ3laYb7egSWV_LlCK0jqhUtpTLTT3kWPxPgxgtikrA" width="290" height="150" style='border:4px solid grey;' alt='Immagine stanza'/>
 						
 
 
@@ -65,7 +65,7 @@ session_start();
 						</div>
 						</div>
 						<div id="affiancate">
-							<p align="right"><img align="center"src="http://www.kikero.it/images/cartina15.png" alt='Immagine stanza'>					
+							<p align="right"><img align="center"src="http://www.kikero.it/images/cartina15.png" alt='Immagine stanza'/>					
 						</div>
 			</div>
 			</div>

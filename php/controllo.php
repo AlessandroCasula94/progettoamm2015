@@ -9,7 +9,7 @@
 			 else
 			 {  
 				 error_reporting(E_ALL ^ E_DEPRECATED);		
-				 $connessione=mysql_connect("localhost","root","");
+				 $Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 				 mysql_select_DB("amm15_casulaAlessandro");
 				 $Query="SELECT cf, tipo FROM Utente  WHERE cf='$user' AND password='$pass';";
 				 $ExQuery=mysql_query($Query);
@@ -19,12 +19,12 @@
 			      $_SESSION['User']=$Data[0];//nome utente Admin o User
 				  $_SESSION['Liv']=$Data[1];//se user o se admin valore booleano
 				  }
-				mysql_close($connessione);
+				mysql_close($Connessione);
 			 }
 ?>
 <html>
 	<head>
-		<link href="../css/stile.css" rel="stylesheet" type="text/css">
+		<link href="../css/stile.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>

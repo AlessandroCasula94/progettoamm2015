@@ -4,7 +4,7 @@ session_start();
 
 <html>
 	<head>
-		<link href="../css/stile.css" rel="stylesheet" type="text/css">
+		<link href="../css/stile.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
@@ -19,7 +19,7 @@ session_start();
 							error_reporting(E_ALL ^ E_DEPRECATED);		
 							$user=$_SESSION['User'];
 							$todays_date = date("Ymd");
-							$connessione=mysql_connect("localhost","root","");
+							$Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 							$DataBase=mysql_select_DB("amm15_casulaAlessandro");
 							$Query="SELECT * FROM stanza as s, prenotazioni as p 
 							WHERE s.cod=p.cod AND p.cf='$user' AND p.data_i>='$todays_date' 
@@ -63,7 +63,7 @@ session_start();
 							
 								}
 							}
-							mysql_close($connessione);
+							mysql_close($Connessione);
 						}
 						else 
 						{

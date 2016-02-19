@@ -60,7 +60,7 @@ insert into Utente values
 
 
 
-insert into stanza values 
+insert into Stanza values 
 
 ('','2','suite',200,'http://www.bedandbreakfastostiaantica.it/sito/wp-content/themes/brandnew/scripts/timthumb.php?src=http://www.bedandbreakfastostiaantica.it/sito/wp-content/uploads/camera-letto-ostia-antica-suite-bb.jpg&w=934&h=290&zc=1&q=100'),
 

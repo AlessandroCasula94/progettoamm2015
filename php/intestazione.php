@@ -2,7 +2,7 @@
 
 <div id="intest">
 	<div id="logo">
-		<img src="..\img\logo.png" alt="Logo azienda">
+		<img src="..\img\logo.png" alt="Logo azienda"/>
 	</div>
 	<div id="oval">	
 		<div id='login'>

@@ -4,7 +4,7 @@ session_start();
 
 <html>
 	<head>
-		<link href="../css/stile.css" rel="stylesheet" type="text/css">
+		<link href="../css/stile.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
@@ -20,7 +20,7 @@ session_start();
 						Inserisci una nuova stanza:
 						</div>";
 						error_reporting(E_ALL ^ E_DEPRECATED);						
-						$Connessione=mysql_connect("localhost","root","");
+						$Connessione=mysql_connect("localhost","casulaAlessandro","dromedario8135");
 						$DataBase=mysql_select_DB("amm15_casulaAlessandro");
 						$Query="SELECT * FROM stanza ORDER BY cod;";
 						$ExQuery=mysql_query($Query);
