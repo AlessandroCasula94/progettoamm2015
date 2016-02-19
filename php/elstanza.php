@@ -23,7 +23,7 @@ session_start();
 					$Query="DELETE FROM Stanza WHERE cod='$codice' ;";
 					$ExQuery=mysql_query($Query);
 					echo"<div id='testo'>Eliminazione completata correttamente</div>";			
-					$Query="DELETE FROM prenotazioni WHERE cod_pren='$codice';";
+					$Query="DELETE FROM Prenotazioni WHERE cod_pren='$codice';";
 					$ExQuery=mysql_query($Query);
 					mysql_close($Connessione);
 					header("Refresh:2;URL=elimina.php");
